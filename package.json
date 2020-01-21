@@ -1,10 +1,10 @@
 {
-  "name": "react-multistate-toggler",
+  "name": "react-simple-switch",
   "version": "1.0.0",
   "description": "Boilerplate for publishing modern React modules with Rollup",
   "author": "Travis Fischer",
   "license": "MIT",
-  "repository": "Sigkill32/react-multistate-toggler",
+  "repository": "Sigkill32/react-simple-switch",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "engines": {

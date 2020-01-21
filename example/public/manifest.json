@@ -1,6 +1,6 @@
 {
-  "short_name": "react-multistate-toggler",
-  "name": "react-multistate-toggler",
+  "short_name": "react-simple-switch",
+  "name": "react-simple-switch",
   "icons": [
     {
       "src": "favicon.ico",

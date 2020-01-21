@@ -1,20 +1,20 @@
-# react-toggle-switch
+# react-simple-switch
 
 > TODO: Component Description
 
-[![NPM](https://img.shields.io/npm/v/react-toggle-switch.svg)](https://www.npmjs.com/package/react-toggle-switch) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-simple-switch.svg)](https://www.npmjs.com/package/react-simple-switch) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 <img src="./toggler-demo.gif" />
 
 ## Install
 
 ```bash
-npm install --save react-toggle-switch
+npm i react-simple-switch
 ```
 
 ## Documentation
 
-Read the full Documentation [here](https://react-multistate-toggler-demo.netlify.com)
+Read the full Documentation [here](https://react-simple-switch-demo.netlify.com)
 
 ## Advantages
 
@@ -26,7 +26,7 @@ Create highly customizable toggle switches with ease. Create toggle switches wit
 
 ```jsx
 import React, { Component } from "react";
-import ToggleButton from "react-multistate-toggler";
+import ToggleButton from "react-simple-switch";
 
 export default class App extends Component {
   state = {
@@ -58,7 +58,7 @@ export default class App extends Component {
 
 ```jsx
 import React, { Component } from "react";
-import ToggleButton from "react-multistate-toggler";
+import ToggleButton from "react-simple-switch";
 
 export default class App extends Component {
   state = {
