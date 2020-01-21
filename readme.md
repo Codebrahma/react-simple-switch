@@ -1,6 +1,6 @@
 # react-simple-switch
 
-> TODO: Component Description
+> A customizable multi state toggle switch library for react
 
 [![NPM](https://img.shields.io/npm/v/react-simple-switch.svg)](https://www.npmjs.com/package/react-simple-switch) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -100,4 +100,4 @@ export default class App extends Component {
 
 ## License
 
-MIT © [Travis Fischer](https://github.com/transitive-bullshit)
+MIT © [Manoj Bhat](https://github.com/Sigkill32)
