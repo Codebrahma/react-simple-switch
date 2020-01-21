@@ -4,7 +4,7 @@
 
 [![NPM](https://img.shields.io/npm/v/react-simple-switch.svg)](https://www.npmjs.com/package/react-simple-switch) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-<img src="./toggler-demo.gif" />
+<img src="https://github.com/Codebrahma/react-simple-switch/raw/master/toggler-demo.gif" />
 
 ## Install
 
@@ -25,8 +25,8 @@ Create highly customizable toggle switches with ease. Create toggle switches wit
 ### Basic usage
 
 ```jsx
-import React, { Component } from "react";
-import ToggleButton from "react-simple-switch";
+import React, { Component } from 'react';
+import ToggleButton from 'react-simple-switch';
 
 export default class App extends Component {
   state = {
@@ -41,11 +41,16 @@ export default class App extends Component {
     const { toggleState } = this.state;
     return (
       <div>
-        <p>Do you like Pizzas: <span style={{color: toggleState ? 'blue' : 'red'}}>{toggleState ? 'YES' : 'NO'}</span></p>
-         <ToggleButton
+        <p>
+          Do you like Pizzas:{' '}
+          <span style={{ color: toggleState ? 'blue' : 'red' }}>
+            {toggleState ? 'YES' : 'NO'}
+          </span>
+        </p>
+        <ToggleButton
           onChange={this.handleChange}
           initState={true}
-          buttonDesign='angled'
+          buttonDesign="angled"
           textData={{ stateOne: 'YES', stateTwo: 'NO' }}
         />
       </div>
@@ -69,17 +74,23 @@ export default class App extends Component {
     this.setState({ toggleState });
   };
 
+  getGender = () => {
+    const { toggleState } = this.state;
+    const genders = ['Female', 'Male', 'Other'];
+    return genders[toggleState - 1];
+  }
+
   render() {
     return (
       <div>
-        <p>Choose your gender <span>{this.state.toggleState}</span></p>
+        <p>Choose your gender <span>{this.getGender()}</span></p>
         <ToggleButton
           onChange={this.handleChange}
           initState={true}
           buttonDesign='rounded'
           buttonStates={3}
           fontSize='12px'
-          textData={ stateOne: 'M', stateTwo: 'F', stateThree: 'T' }
+          textData={ stateOne: 'M', stateTwo: 'F', stateThree: 'O' }
         />
       </div>
     );
