@@ -4,7 +4,7 @@
 
 [![NPM](https://img.shields.io/npm/v/react-simple-switch.svg)](https://www.npmjs.com/package/react-simple-switch) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-<img src="https://github.com/Codebrahma/react-simple-switch/raw/master/toggler-demo.gif" />
+<img src="https://react-multistate-toggler-demo.netlify.com/static/toggler-demo-3bba9d96c11ed083cf27739d4ebca848.gif" />
 
 ## Install
 
