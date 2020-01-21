@@ -1,8 +1,8 @@
 {
   "name": "react-simple-switch",
   "version": "1.0.2",
-  "description": "Boilerplate for publishing modern React modules with Rollup",
-  "author": "Travis Fischer",
+  "description": "A customizable multi state toggle switch library for react",
+  "author": "Manoj Bhat",
   "license": "MIT",
   "repository": "Sigkill32/react-simple-switch",
   "main": "dist/index.js",
